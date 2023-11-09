@@ -1,0 +1,297 @@
+.h-a {
+    padding: 0;
+    position: relative;
+    padding-bottom: 20px;
+    background: #041e42;
+}
+
+.h-af {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 80px 0;
+}
+
+.h-a-f:first-child {
+    width: 50%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h-a-f:last-child {
+    width: 40%;
+    height: auto;
+    display: block;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin-right: 24px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.h-af p0 {
+    font-size: 15px;
+    color: #c7cdd3;
+    font-family: 'Inter-Bold';
+    margin: 0;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.h-af p0 span {
+    color: #4D75B9;
+}
+
+.h-af p0 a,
+.hk a {
+    text-decoration: none;
+}
+
+.h-af .h-a-f h1 {
+    font-size: 56px;
+    line-height: 64px;
+    color: #ffffff;
+    font-family: 'Inter-Black';
+    letter-spacing: -2px;
+    display: block;
+    position: relative;
+}
+
+.h-cont {
+    margin-top: 30px;
+}
+
+.h-a-f .h-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.h-box .hh {
+    width: auto;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.h-box:last-child .hh {
+    margin-bottom: 00px;
+}
+
+.h-box .hh h1 {
+    font-size: 15px;
+    font-family: 'Inter-Medium';
+    letter-spacing: -0px;
+    margin: 0;
+    color: #aac1eb;
+}
+
+.h-box .hh h2 {
+    font-size: 21px;
+    font-family: 'Inter-Bold';
+    letter-spacing: -1px;
+    margin: 0;
+    color: white;
+}
+
+.contacts {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    color: rgb(49, 49, 49);
+    font-size: 17px;
+    font-family: 'Inter-Medium';
+}
+
+label span {
+    color: rgb(248, 56, 56);
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input {
+    padding: 30px 0px;
+    margin-top: 10px;
+    width: 100%;
+    color: rgb(49, 49, 49);
+    border: none;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    outline: none;
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+input:last-child {
+    margin-top: 10px;
+}
+
+textarea::placeholder,
+input::placeholder {
+    font-size: 20px;
+    font-family: 'Inter-Bold';
+    color: rgb(180, 180, 180);
+}
+
+textarea {
+    padding: 10px 0px;
+    margin: auto;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    color: rgb(49, 49, 49);
+    outline: none;
+    background: transparent;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.submit {
+    position: relative;
+    width: 100%;
+    background: #0071DC;
+    border: none;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: block;
+    color: #ffffff;
+    font-family: 'Inter-Bold';
+    letter-spacing: 0px;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+@media(max-width:1100px) {
+    .h-af {
+        padding-top: 60px;
+    }
+    .h-a-f:first-child {
+        margin-right: 24px;
+        width: 45%;
+    }
+    .h-a-f:last-child {
+        width: 45%;
+    }
+    .h-a-f .h-box {
+        flex-wrap: wrap;
+    }
+    .but {
+        margin-top: 20px;
+    }
+    .h-a p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:970px) {
+    .h-af {
+        margin-left: 24px;
+    }
+}
+
+@media(max-width:910px) {
+    .h-af {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:800px) {
+    .h-af {
+        margin-left: 24px;
+    }
+}
+
+@media(max-width:750px) {
+    .h-af {
+        padding-bottom: 0px;
+    }
+    .h-af p0 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .h-a-f .h-box {
+        width: 100%
+    }
+    .but {
+        margin-top: 30px
+    }
+    .but a button {
+        font-size: 15px;
+        margin-bottom: 20px;
+        padding: 13px 20px;
+    }
+    .but a:last-child button {
+        padding: 0;
+    }
+    .h-a-f:first-child {
+        padding-top: 0px;
+        width: 100%;
+        margin-right: 24px;
+    }
+    .h-a-f:last-child {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media(max-width:550px) {
+    .h-af .h-a-f h1 {
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: -1.5px;
+        margin-top: 0;
+    }
+    .h-box .hh h1 {
+        font-size: 15px;
+        letter-spacing: -0px;
+    }
+}
+
+@media(max-width: 500px) {
+    .h-af {
+        padding-top: 50px;
+    }
+    .h-a-f:last-child {
+        flex-wrap: wrap;
+    }
+    .h-af p0 {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:455px) {
+    .hk a {
+        width: 228px;
+    }
+}
+
+@media(max-width:337px) {
+    .but a:nth-child(2) button {
+        margin-top: 20px;
+    }
+}
